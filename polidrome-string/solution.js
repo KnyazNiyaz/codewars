@@ -1,0 +1,1 @@
+palindrome=p=(n,[a,...b])=>b[0]?a+p(n-2,b)+a:a.repeat(n)
