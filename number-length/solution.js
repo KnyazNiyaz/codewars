@@ -9,3 +9,7 @@ function numberLength(n) {
     if (n<10) return 1
     return numberLength(n/10);
 }
+
+function numLength(num) {
+	return Math.ceil(Math.log10(num))
+}
