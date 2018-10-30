@@ -10,3 +10,8 @@ function removeZeros(array) {
   }
   return [...head, ...tail]
 }
+
+
+Hahahaha....
+
+removeZeros = arr => arr['fi' + 'lter'](e => e !== 0 && e !== '0')['conc' + 'at'](arr['filt' + 'er'](e => e === 0 || e === '0'));
